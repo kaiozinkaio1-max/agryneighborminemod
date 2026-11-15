@@ -1,0 +1,23 @@
+{
+ "schemaVersion": 1,
+ "id": "angryneighbor",
+ "version": "1.0.0",
+ "name": "Angry Neighbor",
+ "description": "Vizinho bravo com casa e chaves. Modelo 3D: 'Angry Neighbor' by ValePro10 (Sketchfab, CC-BY-4.0).",
+ "license": "MIT",
+ "environment": "*",
+ "entrypoints": {
+  "main": [
+   "angryneighbor.AngryNeighbor"
+  ],
+  "client": [
+   "angryneighbor.AngryNeighborClient"
+  ]
+ },
+ "depends": {
+  "fabricloader": ">=0.15.0",
+  "minecraft": "1.20.1",
+  "java": ">=17",
+  "fabric-api": "*"
+ }
+}
